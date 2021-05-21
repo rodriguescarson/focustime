@@ -12,7 +12,7 @@ export const Focus = ({ addSubject }) => {
       <View style={styles.titleContainer}>
         <Text style={styles.title}>What would you like to focus on?</Text>
         <View style={styles.inputContainer}>
-          /
+          
           <TextInput
             style={{ flex: 1, marginRight: spacing.md }}
             onSubmitEditing={({ nativeEvent }) => {
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: colors.white,
-    fonWeight: 'bold',
+    fontWeight: 'bold',
     fontSize: spacing.lg,
   },
   inputContainer: {

@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
-import { fontSizes, paddingSizes } from "../../utils/sizes";
+import { fontSizes, spacing } from "../../utils/sizes";
 import { RoundedButton } from "../../components/RoundedButton";
 
 export const FocusHistory = ({ focusHistory, setFocusHistory }) => {
@@ -52,6 +52,6 @@ const styles = (status) => StyleSheet.create({
   },
   clearContainer: {
     alignItems: "center",
-    padding: paddingSizes.sm,
+    padding: spacing.sm,
   },
 });

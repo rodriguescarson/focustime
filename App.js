@@ -20,10 +20,6 @@ export default function App() {
     setFocusHistory([...focusHistory, { key:String(focusHistory.length+1),subject, status }]);
   };
 
-  const onClear = () => {
-    setFocusHistory([]);
-  };
-
   const saveFocusHistory = async () => {
     try {
       await AsyncStorage.setItem('focusHistory', JSON.stringify(focusHistory));
@@ -66,7 +62,7 @@ useEffect(()=>{loadFocusHistory()},[])
       ) : (
         <>
           <Focus addSubject={setFocusSubject} />
-          <FocusHistory focusHistory={focusHistory} onClear={onClear} />
+          <FocusHistory focusHistory={focusHistory} setFocusHistory={setFocusHistory} />
         </>
       )}
     </View>

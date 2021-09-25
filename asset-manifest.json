@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/focustime/static/js/app.684b5958.chunk.js",
-    "app.js.map": "/focustime/static/js/app.684b5958.chunk.js.map",
+    "app.js": "/focustime/static/js/app.b8f9158c.chunk.js",
+    "app.js.map": "/focustime/static/js/app.b8f9158c.chunk.js.map",
     "runtime~app.js": "/focustime/static/js/runtime~app.81d1a14b.js",
     "runtime~app.js.map": "/focustime/static/js/runtime~app.81d1a14b.js.map",
     "static/js/2.1d93cea5.chunk.js": "/focustime/static/js/2.1d93cea5.chunk.js",
@@ -18,6 +18,6 @@
   "entrypoints": [
     "static/js/runtime~app.81d1a14b.js",
     "static/js/2.1d93cea5.chunk.js",
-    "static/js/app.684b5958.chunk.js"
+    "static/js/app.b8f9158c.chunk.js"
   ]
 }

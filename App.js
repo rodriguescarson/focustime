@@ -47,7 +47,7 @@ useEffect(()=>{loadFocusHistory()},[])
 
   return (
     <View style={styles.container}>
-      <h1> Timer App Using React By Carson </h1>
+      <h1 style={{color:white}}> Timer App Using React By Carson </h1>
       {focusSubject ? (
         <Timer
           focusSubject={focusSubject}

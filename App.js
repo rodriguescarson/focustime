@@ -60,10 +60,10 @@ useEffect(()=>{loadFocusHistory()},[])
           }}
         />
       ) : (
-        <>
+        <View style={{flex:1}}>
           <Focus addSubject={setFocusSubject} />
           <FocusHistory focusHistory={focusHistory} setFocusHistory={setFocusHistory} />
-        </>
+        </View>
       )}
     </View>
   );

@@ -47,7 +47,7 @@ useEffect(()=>{loadFocusHistory()},[])
 
   return (
     <View style={styles.container}>
-      <h1 style={styles.header}> Timer App Using React By Carson </h1>
+      <Text style={styles.header}> Timer App Using React By Carson </Text>
       {focusSubject ? (
         <Timer
           focusSubject={focusSubject}
@@ -71,12 +71,13 @@ useEffect(()=>{loadFocusHistory()},[])
 }
 
 const styles = StyleSheet.create({
+  header: {
+    color: colors.white,
+    justifyContent: 'center',
+  },
   container: {
     flex: 1,
     paddingTop: Platform.OS === 'ios' ? spacing.md : spacing.lg,
     backgroundColor: colors.darkBlue,
-  },
-  header: {
-    color:colors.white
   }
 });
